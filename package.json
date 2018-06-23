@@ -1,0 +1,31 @@
+{
+  "name": "gaafbserver",
+  "version": "1.0.0",
+  "description": "Node Rest API for GAA FB Posting App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rip55jcp/gaaFBRestAPI.git"
+  },
+  "author": "Theresa Pitts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rip55jcp/gaaFBRestAPI/issues"
+  },
+  "homepage": "https://github.com/rip55jcp/gaaFBRestAPI#readme",
+  "devDependencies": {
+    "@angular/cli": "^6.0.1",
+    "nodemon": "^1.17.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "restify": "^6.3.4",
+    "swagger-jsdoc": "^1.9.7"
+  }
+}
